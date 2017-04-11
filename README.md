@@ -1,4 +1,4 @@
-*This is the readme file*
+# Last posts
 
 <ul>
   {% for post in site.posts %}
@@ -7,5 +7,3 @@
     </li>
   {% endfor %}
 </ul>
-
-# bu3.github.io

@@ -7,18 +7,18 @@ description: This is a sample Jekyll Blog.
 theme: jekyll-theme-cayman
 
 # Your name, as you want it to appear underneath each post and in the footer
-author: Your Name
+author: Fabio Mangione
 
 # Your email if you want it to be linked on the contact page
-author_email: you@example.com
+author_email: fabio.mangione@gmail.com
 
-title: [The title of your site]
-description: [A short description of your site's purpose]
+title: [My Continuous Improvement]
+description: [That's a reminder for what I learnt and may be helpfull in the future]
 
 future: false
 #show_drafts: true
 #unpublished: true
-#timezone: Europe/Dublin
+timezone: Europe/Dublin
 
 #future: false
 
