@@ -8,6 +8,7 @@
     <meta name="theme-color" content="#157878">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
 <body>
 <section class="page-header">
@@ -15,10 +16,37 @@
     <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
     {% if page.title == 'Last posts' %}
     <div class="about">
-        <img class="img-circle" src="/assets/images/me.jpg">
+        <div>
+            <img class="img-circle" src="/assets/images/me.jpg">
+        </div>
         <div>
             <span>Hi, I&apos;m Fabio Mangione</span>
             <div>Developer and Agile enthusiast</div>
+        </div>
+        <div class="social-hub">
+            <ul>
+                {% if site.twitter_username %}
+                <li>
+                    <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                </li>
+                {% endif %}
+                {% if site.github_username %}
+                <li>
+                    <a href="https://github.com/{{ site.github_username }}" target="_blank">
+                        <i class="fa fa-github"></i>
+                    </a>
+                </li>
+                {% endif %}
+                {% if site.linkedin_username %}
+                <li>
+                    <a href="https://linkedin.com/in/{{ site.linkedin_username }}" target="_blank">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+                </li>
+                {% endif %}
+            </ul>
         </div>
     </div>
     {% endif %}

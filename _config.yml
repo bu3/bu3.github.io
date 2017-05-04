@@ -20,6 +20,10 @@ future: false
 #unpublished: true
 timezone: Europe/Dublin
 
+twitter_username:     mangius
+github_username:      bu3
+linkedin_username:    fabiomangione
+
 #future: false
 
 # The directory for category index pages. Change it to something else if
