@@ -37,7 +37,7 @@ I tried to put my self in TL's shoes and I guess I understood why he wants:
 
 He used to ask questions like:
 * *What if tomorrow we find out that this framework does not suit anymore our project?*
-* *What if tomorrow we find out that this design pattern does not apply anymore to pur project?*
+* *What if tomorrow we find out that this design pattern does not apply anymore to our project?*
 * *What if tomorrow we find out that the model does not work anymore?*
 
 Is it fear? I guess so.
