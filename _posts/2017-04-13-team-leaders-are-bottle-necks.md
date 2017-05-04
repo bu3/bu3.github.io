@@ -1,6 +1,7 @@
 ---
 layout: default
 title:  "Team leaders are bottle necks"
+comments: true
 categories: 
     - experience
 ---
