@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "Angular 2 - Test a Service"
+title:  "Angular 2 - Testing a Service"
 categories: angular-2
 tags:
  - angular
