@@ -37,7 +37,7 @@ Now before running our tests, another task sets up MySql and after tests another
 Let's move to the code.
 
 
-These are the entity and a repository using a native query for using MySql ***JSON_SEARCH*** function:  
+These are the entity and a repository using a native query that relies on MySql ***JSON_SEARCH*** function:  
 
 ```kotlin 
 
